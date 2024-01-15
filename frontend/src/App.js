@@ -72,7 +72,6 @@ function App() {
 
   // This will not allow to inspect
   window.addEventListener("contextmenu", (e) => e.preventDefault());
-  let pmnt = 0;
   return (
     <Router>
           <ScrollToTop/>
